@@ -1,10 +1,10 @@
-# operability-questions
+# operability-questions - OperabilityQuestions.com
 
 **Questions to assess the operability of software systems**
 
 There is one main file:
 
-1. `operability-questions.md` - the main set of questions to assess operability
+1. [`operability-questions.md`](operability-questions.md) - the main set of questions to assess operability
 
 ## Overview
 
@@ -22,7 +22,7 @@ For teams and people new to assessing operability, it can be very effective to p
 
 Copyright © 2018 [Conflux Digital Ltd](https://confluxdigital.net/)
 
-Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png
+Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 
 ## How to use the operability questions
 
