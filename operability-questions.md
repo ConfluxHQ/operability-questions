@@ -16,7 +16,35 @@ Copyright © 2018 [Conflux Digital Ltd](https://confluxdigital.net/)
 
 Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png
 
-## EXAMPLE: ????????????????? How do I trace a call end to end through this system?
+## EXAMPLE: How do we trace a call end-to-end through the system?
+
+> This question addresses ...
+
+### Who?
+
+_The software delivery team and the Web Operations team do this_
+
+### How?
+
+_We use Correlation IDs in HTTP headers, logging the ID at each subsystem, and then searching for the ID in Kibana_
+
+### Evidence 
+
+_We test that Correlation IDs are working properly with BDD tests written in Cucumber. See `tests/correlation-tests` folder e.g. `trace-id.feature`_ 
+
+# CONFIGURATON
+
+## CONFIGURATION: How do we know which feature toggles (feature switches) are active for this subsystem?
+
+> This question addresses the need for clarity about the number and nature of feature toggles for a system. Feature toggle need careful management. 
+
+### Who?
+
+### How?
+
+### Evidence 
+
+## CONFIGURATION: How do we deploy a configuration change without redploying the software?
 
 > This question addresses ...
 
@@ -26,7 +54,9 @@ Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) !
 
 ### Evidence 
 
-## A. CONFIGURATION: 
+# SECURITY
+
+## SECURITY: How do we know when an SSL/TLS certificate is close to expiry?
 
 > This question addresses ...
 
@@ -36,7 +66,7 @@ Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) !
 
 ### Evidence 
 
-## B.
+## SECURITY: How are SSL/TLS certificates renewed?
 
 > This question addresses ...
 
@@ -46,7 +76,7 @@ Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) !
 
 ### Evidence 
 
-## C.
+## SECURITY: How are non-HTTPS certificates and other security keys renewed?
 
 > This question addresses ...
 
@@ -56,7 +86,7 @@ Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) !
 
 ### Evidence 
 
-## D.
+## SECURITY: How do we ensure that data in transit is encrypted?
 
 > This question addresses ...
 
@@ -66,7 +96,7 @@ Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) !
 
 ### Evidence 
 
-## E.
+## SECURITY: How do we patch public-facing systems safely when a Zero-Day Vulnerability is found?
 
 > This question addresses ...
 
@@ -76,132 +106,3 @@ Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) !
 
 ### Evidence 
 
-## F.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## G.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## H.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## I.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## J.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## K.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## L.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## M.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## N.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## O.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## P.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## Q.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
-
-## R.
-
-> This question addresses ...
-
-### Who?
-
-### How?
-
-### Evidence 
