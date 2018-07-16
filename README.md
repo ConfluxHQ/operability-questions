@@ -16,6 +16,8 @@ Each operability question requires answers to these key questions:
 * **How?**: Which tool (or set of tools) or process will help to do this?
 * **Evidence**:  How will you demonstrate this using evidence?
 
+For each operability question, there is a short description of why this question is useful, giving some context.
+
 For teams and people new to assessing operability, it can be very effective to print the [operability questions page](operability-questions.md) and record questions using pen & paper around a table; this helps teams to "step back" from the computer systems and consider operability more carefully.
 
 > The book [Team Guide to Software Operability](http://operabilitybook.com/) has a section on Operability Questions, including details of how different teams use these questions to help improve operability. 
