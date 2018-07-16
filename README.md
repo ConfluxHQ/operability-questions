@@ -11,6 +11,8 @@ There are two main files:
 
 This repository holds a set of **operability questions** that are useful for assessing the operability of software systems. The operability questions can be used alone or in conjunction with tools like the [Run Book dialogue sheet](http://runbooktemplate.info/) to help discover additional operability criteria or gaps.
 
+> The book [Team Guide to Software Operability](http://operabilitybook.com/) has a section on Operability Questions, including details of how different teams use these questions to help improve operability. 
+
 Copyright © 2018 [Conflux Digital Ltd](https://confluxdigital.net/)
 
 Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png
