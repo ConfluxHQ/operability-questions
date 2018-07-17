@@ -16,6 +16,8 @@ Copyright © 2018 [Conflux Digital Ltd](https://confluxdigital.net/)
 
 Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 
+_Permalink: [OperabilityQuestions.com](http://operabilityquestions.com/)_
+
 ## EXAMPLE: How do we trace a call/request end-to-end through the system?
 
 > We need to be able to trace a request across multiple servers/containers/nodes for runtime diagnostic purposes.

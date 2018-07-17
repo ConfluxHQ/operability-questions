@@ -26,6 +26,8 @@ Copyright © 2018 [Conflux Digital Ltd](https://confluxdigital.net/)
 
 Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 
+_Permalink: [OperabilityQuestions.com](http://operabilityquestions.com/)_
+
 ## How to use the operability questions
 
 1. Clone/fork the repo
