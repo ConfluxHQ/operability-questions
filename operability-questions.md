@@ -2,7 +2,7 @@
 
 See [`README.md`](README.md) for more details on how to use these questions.
 
-These **operability questions** are useful for assessing the operability of software systems. The operability questions can be used alone or in conjunction with tools like the [Run Book dialogue sheet](http://runbooktemplate.info/) to help discover additional operability criteria or gaps.
+These **operability questions** are useful for helping teams assess the operability of software systems. The operability questions can be used alone or in conjunction with tools like the [Run Book dialogue sheet](http://runbooktemplate.info/) to help discover additional operability criteria or gaps.
 
 Each question requires answers to these key questions: 
 

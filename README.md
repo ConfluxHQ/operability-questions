@@ -1,6 +1,6 @@
 # operability-questions - OperabilityQuestions.com
 
-**Questions to assess the operability of software systems**
+**Questions to help teams assess the operability of software systems**
 
 There is one main file:
 
