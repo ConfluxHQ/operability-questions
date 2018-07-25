@@ -1,4 +1,4 @@
-# Operability Questions
+# Operability Questions - OperabilityQuestions.com
 
 See [`README.md`](README.md) for more details on how to use these questions.
 
@@ -9,6 +9,7 @@ Each question requires answers to these key questions:
 * **Who? (What?)**: What kind of user or persona will do this? (Or what kind of system?) 
 * **How?**: Which tool (or set of tools) or process will help to do this?
 * **Evidence**:  How will you demonstrate this using evidence?
+* **Score**: a score of 1 to 5 for how well your approach compares to industry-leading approaches (1 is poor; 5 is excellent)
 
 > Print this page and record questions using pen & paper with your team
 
@@ -34,6 +35,10 @@ _We use Correlation IDs in HTTP headers, logging the ID at each subsystem, and t
 
 _We test that Correlation IDs are working properly with BDD tests written in Cucumber. See `tests/correlation-tests` folder e.g. `trace-id.feature`_ 
 
+### Score
+
+_4_
+
 # CONFIGURATON
 
 ## CONFIGURATION: How do we know which feature toggles (feature switches) are active for this subsystem?
@@ -46,6 +51,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 ## CONFIGURATION: How do we deploy a configuration change without redploying the software?
 
 > We need to be able to change the configuration of software in an environment without redeploying the executable binaries or scripts.
@@ -56,6 +63,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 ## CONFIGURATION: How do we verify the version and source of the configuration that is being used?
 
 > We need to ensure that only valid, tested configuration data is being used and that the configuration schema itself is controlled. 
@@ -65,6 +74,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 ### How?
 
 ### Evidence 
+
+### Score
 
 # DIAGNOSIS and TESTABILIY
 
@@ -78,6 +89,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 ## DIAGNOSIS: How do we track the main service/system Key Performance Indicators (KPIs)? What are the KPIs? 
 
 > We need to define simple ways to report health of the system in ways that are meaningful for that system.
@@ -87,6 +100,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 ### How?
 
 ### Evidence 
+
+### Score
 
 ## DIAGNOSIS: How do we know that logging is working correctly? 
 
@@ -98,6 +113,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 ## DIAGNOSIS: How do we know that time series metrics are working correctly? 
 
 > Time series metrics are a key aspect of modern software systems and must be working correctly at all times.
@@ -107,6 +124,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 ### How?
 
 ### Evidence 
+
+### Score
 
 ## TESTABILITY: How do we show that the software system is easy to test? What do we provide and to whom? 
 
@@ -118,6 +137,7 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
 
 # SECURITY AND SECURABILITY
 
@@ -131,6 +151,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 ## SECURITY: How are SSL/TLS certificates renewed?
 
 > We need to have clarity about certificate renewal so we avoid systems breaking due to expired certificates.
@@ -140,6 +162,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 ### How?
 
 ### Evidence 
+
+### Score
 
 ## SECURITY: How are non-HTTPS certificates and other security keys renewed?
 
@@ -151,6 +175,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 ## SECURITY: How do we ensure that data in transit is encrypted?
 
 > We need to encrypt data in transit to prevent eavesdropping.
@@ -160,6 +186,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 ### How?
 
 ### Evidence 
+
+### Score
 
 ## SECURITY: How do we ensure that sensitive data in logs is masked or hidden?
 
@@ -171,6 +199,7 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
 
 ## SECURABILITY: How do we patch public-facing systems safely when a Zero-Day Vulnerability is found?
 
@@ -181,6 +210,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 ### How?
 
 ### Evidence 
+
+### Score
 
 # PERFORMANCE
 
@@ -194,6 +225,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 # RELIABILITY, REPEATABILITY, RESILIENCE
 
 ## RELIABILITY: How can we see and share the different known failure modes for the system?
@@ -206,6 +239,7 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
 
 ## RESILIENCE: How are we sure that connection retry schemes (such as Exponential Backoff) are working?
 
@@ -217,6 +251,7 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
 
 # OBSERVABILITY
 
@@ -230,6 +265,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 ## OBSERVABILITY: How do we display the current service/system status to operations-facing teams?
 
 > We need to display key information about the live operation of the system to teams focused on operations.
@@ -240,6 +277,7 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
 
 # RECOVERY
 
@@ -253,6 +291,8 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
+
 ## RECOVERY: How do we know that the system/service will recover from an external failure?
 
 > We need to demonstrate that the software can recover from external failures gracefully.
@@ -263,6 +303,7 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 ### Evidence 
 
+### Score
 
 # SAFETY and ETHICS
 
