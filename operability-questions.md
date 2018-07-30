@@ -105,7 +105,7 @@ _4_
 
 ### Score
 
-## CONFIGURATION: How do we deploy a configuration change without redploying the software?
+## CONFIGURATION: How do we deploy a configuration change without redeploying the software?
 
 > We need to be able to change the configuration of software in an environment without redeploying the executable binaries or scripts.
 
