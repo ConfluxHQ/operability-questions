@@ -39,6 +39,32 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 _4_
 
+# COLLABORATION
+
+## COLLABORATION: Which people or groups do we collaborate with to ensure an effective operator experience? 
+
+> We need a clear understanding of the people and teams that can help to make the software systems work well. 
+
+### Who?
+
+### How?
+
+### Evidence 
+
+### Score
+
+## COLLABORATION: How often and in what ways do we collaborate with other teams on operational aspects of the system? At which stages of the development cycle do we assess and meet operational needs?
+
+> We should have a clear approach for meeting the needs of operations people. 
+
+### Who?
+
+### How?
+
+### Evidence 
+
+### Score
+
 # CONFIGURATON
 
 ## CONFIGURATION: How do we know which feature toggles (feature switches) are active for this subsystem?
