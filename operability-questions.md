@@ -55,9 +55,21 @@ _4_
 
 ## USABILITY: How often and in what ways do we collaborate with other teams on operational aspects of the system? At which stages of the development cycle do we assess and meet operational needs?
 
+> We should have a clear approach for meeting the needs of operations people. 
+
+### Who?
+
+### How?
+
+### Evidence 
+
+### Score
+
 # VIABILITY
 
 ## VIABILITY: What proportion of product budget and team effort is spent addressing operational aspects? How do you track this?
+
+> We should be spending a good proportion of time and effort on addressing operational aspects.
 
 ### Who?
 
@@ -69,16 +81,7 @@ _4_
 
 ## VIABILITY: What is the longest time between addressing two operational features within your team? That is, what is the longest time between deployments of operationally-focused changes? 
 
-### Who?
-
-### How?
-
-### Evidence 
-
-### Score
-
-
-> We should have a clear approach for meeting the needs of operations people. 
+> We should be addressing operational aspects on a regular, frequent basis throughout the project, not occasionally or just at the end of the project.
 
 ### Who?
 
