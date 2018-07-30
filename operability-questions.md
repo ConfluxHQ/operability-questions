@@ -39,9 +39,9 @@ _We test that Correlation IDs are working properly with BDD tests written in Cuc
 
 _4_
 
-# COLLABORATION
+# USABILITY
 
-## COLLABORATION: Which people or groups do we collaborate with to ensure an effective operator experience? 
+## USABILITY: Which people or groups do we collaborate with to ensure an effective operator experience? 
 
 > We need a clear understanding of the people and teams that can help to make the software systems work well. 
 
@@ -53,7 +53,30 @@ _4_
 
 ### Score
 
-## COLLABORATION: How often and in what ways do we collaborate with other teams on operational aspects of the system? At which stages of the development cycle do we assess and meet operational needs?
+## USABILITY: How often and in what ways do we collaborate with other teams on operational aspects of the system? At which stages of the development cycle do we assess and meet operational needs?
+
+# VIABILITY
+
+## VIABILITY: What proportion of product budget and team effort is spent addressing operational aspects? How do you track this?
+
+### Who?
+
+### How?
+
+### Evidence 
+
+### Score
+
+## VIABILITY: What is the longest time between addressing two operational features within your team? That is, what is the longest time between deployments of operationally-focused changes? 
+
+### Who?
+
+### How?
+
+### Evidence 
+
+### Score
+
 
 > We should have a clear approach for meeting the needs of operations people. 
 
