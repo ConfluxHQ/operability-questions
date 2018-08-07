@@ -11,6 +11,8 @@ Each question requires answers to these key questions:
 * **Evidence**:  How will you demonstrate this using evidence?
 * **Score**: a score of 1 to 5 for how well your approach compares to industry-leading approaches (1 is poor; 5 is excellent)
 
+Use the _Poor_ and _Excellent_ criteria to help guide your scores. These are examples of bad and good extremes; your situation may demand slightly different critera.
+
 > Print this page and record questions using pen & paper with your team
 
 Copyright © 2018 [Conflux Digital Ltd](https://confluxdigital.net/)
@@ -45,6 +47,9 @@ _4_
 
 > We need a clear understanding of the people and teams that can help to make the software systems work well. 
 
+* Poor: _We fix any operator problems after go-live_
+* Excellent: _We collaborate with the live service / operations teams from the start of the project_
+
 ### Who?
 
 ### How?
@@ -56,6 +61,9 @@ _4_
 ## USABILITY: How often and in what ways do we collaborate with other teams on operational aspects of the system? At which stages of the development cycle do we assess and meet operational needs?
 
 > We should have a clear approach for meeting the needs of operations people. 
+
+* Poor: _We respond to operational requests after go-live when tickets are raised by the live service teams_
+* Excellent: _We collaborate on operational aspects from the very first week of the engagement/project_
 
 ### Who?
 
@@ -71,6 +79,9 @@ _4_
 
 > We should be spending a good proportion of time and effort on addressing operational aspects.
 
+* Poor: _We try to spend as little time and effort as possible on operational aspects / We do not track the spend on operational aspects at all_
+* Excellent: _We spend 30% of our time and budget addressing operational aspects_
+
 ### Who?
 
 ### How?
@@ -82,6 +93,9 @@ _4_
 ## VIABILITY: What is the longest time between addressing two operational features within your team? That is, what is the longest time between deployments of operationally-focused changes? 
 
 > We should be addressing operational aspects on a regular, frequent basis throughout the project, not occasionally or just at the end of the project.
+
+* Poor: _We do not track operational aspects / It can take months to address operational aspects_
+* Excellent: _We deploy changes to address operational aspects as frequently as we deploy changes to address user-visible features_
 
 ### Who?
 
@@ -97,6 +111,9 @@ _4_
 
 > We need clarity about the number and nature of feature toggles for a system. Feature toggle need careful management. 
 
+* Poor: _We need to run diffs against config files to determine which feature toggles are arctive_
+* Excellent: _We have a simple UI or API to report the active/inactive feature flags in an environment_
+
 ### Who?
 
 ### How?
@@ -109,6 +126,9 @@ _4_
 
 > We need to be able to change the configuration of software in an environment without redeploying the executable binaries or scripts.
 
+* Poor: _We cannot deploy a configuration change without deploying the software_
+* Excellent: _We simply run a config deployment separately from the software_
+
 ### Who?
 
 ### How?
@@ -120,6 +140,9 @@ _4_
 ## CONFIGURATION: How do we verify the version and source of the configuration that is being used?
 
 > We need to ensure that only valid, tested configuration data is being used and that the configuration schema itself is controlled. 
+
+* Poor: _We cannot verify the configuration in use_
+* Excellent: _We use `sha256sum` hashes to verify the configuration in use_
 
 ### Who?
 
@@ -135,6 +158,9 @@ _4_
 
 > We need to define simple ways to report health of the system in ways that are meaningful for that system.
 
+* Poor: _We wait for checks made manually by another team to tell us if our software is healthy_
+* Excellent: _We query the software using a standard HTTP healthcheck URL, returning HTTP 200/500, etc. based on logic that we write in the code_
+
 ### Who?
 
 ### How?
@@ -146,6 +172,9 @@ _4_
 ## DIAGNOSIS: How do we track the main service/system Key Performance Indicators (KPIs)? What are the KPIs? 
 
 > We need to define simple ways to report health of the system in ways that are meaningful for that system.
+
+* Poor: _We do not have service KPIs defined_
+* Excellent: _We use logging and/or time series metrics to emit service KPIs that are picked up by a dashboard_
 
 ### Who?
 
@@ -159,6 +188,9 @@ _4_
 
 > Logging is a key aspect of modern software systems and must be working correctly at all times.
 
+* Poor: _We do not test if logging is working_
+* Excellent: _We test that logging is working using BDD feature tests that search for specific log message strings after a particular application behaviour is executed_
+
 ### Who?
 
 ### How?
@@ -171,6 +203,9 @@ _4_
 
 > Time series metrics are a key aspect of modern software systems and must be working correctly at all times.
 
+* Poor: _We do not test if time series metrics are working_
+* Excellent: _We test that time series metrics are working using BDD feature tests that search for specific time series data after a particular application behaviour is executed_
+
 ### Who?
 
 ### How?
@@ -182,6 +217,9 @@ _4_
 ## TESTABILITY: How do we show that the software system is easy to test? What do we provide and to whom? 
 
 > Keeping software testable is a key aspect of operability. 
+
+* Poor: _We do not explicitly aim to make out software easily testable_
+* Excellent: _We run clients and external test packs against all parts of our software within our deployment pipeline_
 
 ### Who?
 
@@ -197,6 +235,9 @@ _4_
 
 > We need to have clarity about certificate renewal so we avoid systems breaking due to expired certificates.
 
+* Poor: _We do not know when our certificates are going to expire_
+* Excellent: _We use certificate monitoring tools to keep a live check on when certs will expire so we can take remedial action ahead of time_
+
 ### Who?
 
 ### How?
@@ -208,6 +249,9 @@ _4_
 ## SECURITY: How are SSL/TLS certificates renewed?
 
 > We need to have clarity about certificate renewal so we avoid systems breaking due to expired certificates.
+
+* Poor: _Another team renews and installs SSL/TLS certificates manually_
+* Excellent: _We use automated processes to renew and configure SSL/TLS certificates using *Let's Encrypt*_
 
 ### Who?
 
@@ -221,6 +265,9 @@ _4_
 
 > We need to have clarity about certificate renewal so we avoid systems breaking due to expired certificates.
 
+* Poor: _Another team renews and installs certificates manually_
+* Excellent: _We use automated processes to renew and configure certificates using an API_
+
 ### Who?
 
 ### How?
@@ -232,6 +279,9 @@ _4_
 ## SECURITY: How do we ensure that data in transit is encrypted?
 
 > We need to encrypt data in transit to prevent eavesdropping.
+
+* Poor: _We do not explicitly test for transport security; we assume that another team will configure security for us_
+* Excellent: _We test for secure transport as a specific feature of our application_
 
 ### Who?
 
@@ -245,6 +295,9 @@ _4_
 
 > We need to mask or hide sensitive data in logs whilst still exposing the surrounding data to teams.
 
+* Poor: _We do not test for data masking in logs_
+* Excellent: _We test that data masking is happening by using BDD feature tests that search for specific log message strings after a particular application behaviour is executed_
+
 ### Who?
 
 ### How?
@@ -256,6 +309,9 @@ _4_
 ## SECURABILITY: How do we patch public-facing systems safely when a Zero-Day Vulnerability is found?
 
 > We need to apply patches to public-facing systems as quickly as possible (but still safely) when a Zero-Day vulnerability is disclosed.
+
+* Poor: _Another team is responsible for patching / We do not know if or when a Zero-Day vulnerability occurs_
+* Excellent: _We work with the security team to test and roll out a fix, using our automated deployment pipeline to test and deploy the change_
 
 ### Who?
 
@@ -271,6 +327,9 @@ _4_
 
 > We need to demonstrate that the software can perform well.
 
+* Poor: _We rely on the Performance team to validate the performance of our service or application_
+* Excellent: _We run a set of indicative performance tests within our deployment pipeline that are run on every check-in to version control_
+
 ### Who?
 
 ### How?
@@ -285,6 +344,9 @@ _4_
 
 > We need to define and share a set of known failure modes or failure conditions so we better understand how the software will operate.
 
+* Poor: _We do not really know how the system might fail_
+* Excellent: _We use a set of error identifiers to define the failure modes in our software and we use these identifiers in our log messages_
+
 ### Who?
 
 ### How?
@@ -296,6 +358,9 @@ _4_
 ## RESILIENCE: How are we sure that connection retry schemes (such as Exponential Backoff) are working?
 
 > We need to demonstrate that the system does not overload downstream systems with reconnection attempts, and uses sensible back-off schemes.
+
+* Poor: _We do not really know whether connection retry works properly_
+* Excellent: _We test the connection retry logic as part of our automated deployment pipeline_
 
 ### Who?
 
@@ -311,6 +376,9 @@ _4_
 
 > We need to be able to trace a request across multiple servers/containers/nodes for runtime diagnostic purposes.
 
+* Poor: _We do not trace calls through the system_
+* Excellent: _We use a standard tracing library such as OpenTracing to trace calls through the system. We collaborate with othher teams to ensure that the correct tracing fields are maintained across component boundaries_
+
 ### Who?
 
 ### How?
@@ -322,6 +390,9 @@ _4_
 ## OBSERVABILITY: How do we display the current service/system status to operations-facing teams?
 
 > We need to display key information about the live operation of the system to teams focused on operations.
+
+* Poor: _Operations teams tend to discover the status indicators themselves_
+* Excellent: _We build a dashboard in collaboration with the Operations teams so they have all the details they need in a user-friendly way with UX a key consideration_
 
 ### Who?
 
@@ -337,6 +408,10 @@ _4_
 
 > We need to demonstrate that the software can recover from internal failures gracefully.
 
+
+* Poor: _We do not really know whether the system can recover from internal failures_
+* Excellent: _We test many internal failure scenarios as part of our automated deployment pipeline_
+
 ### Who?
 
 ### How?
@@ -348,6 +423,9 @@ _4_
 ## RECOVERY: How do we know that the system/service will recover from an external failure?
 
 > We need to demonstrate that the software can recover from external failures gracefully.
+
+* Poor: _We do not really know whether the system can recover from external failures_
+* Excellent: _We test many external failure scenarios as part of our automated deployment pipeline_
 
 ### Who?
 
