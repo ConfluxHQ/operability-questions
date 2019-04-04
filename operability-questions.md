@@ -402,6 +402,21 @@ _4_
 
 ### Score
 
+## OBSERVABILITY: How accurate is the Synthetic Monitoring for key service or user scenarios?
+
+> We need to run synthetic transactions against the live systems on a regular basis. How well does the synthetic monitoring detect problems?
+
+* Poor: _The service often goes down without us knowing, and users inform us before we detect a problem / We do not have synthetic monitoring in place for key scenarios_
+* Excellent: _The synthetic monitoring alerts us quickly to problems with key journeys or scenarios_
+
+### Who?
+
+### How?
+
+### Evidence 
+
+### Score
+
 # RECOVERY
 
 ## RECOVERY: How do we know that the system/service will recover from an internal failure?
